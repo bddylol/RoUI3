@@ -4,6 +4,7 @@
 
 [![Install](https://img.shields.io/badge/install-roui3-brightgreen?style=for-the-badge&link=https%3A%2F%2Fcreate.roblox.com%2Fstore%2Fasset%2F11798243393%2FRoUI3)](https://create.roblox.com/store/asset/11798243393/RoUI3)
 ![Version](https://img.shields.io/badge/version-2.0.0-blueviolet?style=for-the-badge&link=https%3A%2F%2Fcreate.roblox.com%2Fstore%2Fasset%2F11798243393%2FRoUI3)
+![Build](https://img.shields.io/github/actions/workflow/status/bddylol/RoUI3/build.yml?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/astrealrblx/roui3?style=for-the-badge)
 
 
