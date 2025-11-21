@@ -27,6 +27,19 @@ jobs:
     - name: Build project
       run: npm run build
       
+    - name: Verify build output
+      run: |
+        if [ ! -d "out" ]; then
+          echo "Error: Build output directory 'out/' was not created"
+          exit 1
+        fi
+        if [ -z "$(ls -A out)" ]; then
+          echo "Error: Build output directory 'out/' is empty"
+          exit 1
+        fi
+        echo "Build verification successful"
+        ls -la out/
+      
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
